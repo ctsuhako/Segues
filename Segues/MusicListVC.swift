@@ -36,7 +36,7 @@ class MusicListVC: UIViewController {
     // } set {
     // _selectedSong = newValue
     
-    override func prepare(for segue: UIStoryboardSegue, sender: AnyObject?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let destination = segue.destination as? PlaySongVC {
         
         // Below, grabbing the selected song from the sender
